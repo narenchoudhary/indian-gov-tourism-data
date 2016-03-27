@@ -3,6 +3,10 @@ library(ggplot2)
 library(reshape2)
 library(gganimate)
 
+
+# "Data/Table26_1_copy.xls" differs from original data file.
+# Continents and other fields have been removed to focus on country-wise data.
+
 # read xls 
 table1 <- read.xls("Data/Table26_1_copy.xls")
 # column names
